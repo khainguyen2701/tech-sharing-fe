@@ -1,0 +1,9 @@
+{
+  "extends": ["plugin:tailwindcss/recommended", "prettier"],
+  "plugins": ["tailwindcss"],
+  "rules": {
+    "tailwindcss/no-debug-utils": "error",
+    "tailwindcss/no-custom-classname": "error"
+    // Các quy tắc khác của ESLint và TailwindCSS
+  }
+}
