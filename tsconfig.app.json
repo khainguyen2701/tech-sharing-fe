@@ -20,7 +20,17 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": [
+      "estree",
+      "prop-types",
+      "react",
+      "react-dom",
+      "react-transition-group"
+    ]
   },
   "include": ["src"]
 }
